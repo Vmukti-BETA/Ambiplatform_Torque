@@ -48,57 +48,76 @@ html {
 
 body, p {
 	color: #555;
-	font: 400 1rem/1.625rem "Roboto" ;
-	;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 }
 
 .p-large {
-	font: 400 1.125rem/1.75rem "Roboto" ;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 }
 
 .p-small {
-	font: 400 0.875rem/1.5rem "Roboto";
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 }
 
 h1 {
 	color: #333;
-	font: 700 2.5rem/3.125rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.2px;
 }
 
 h2 {
 	color: rgb(0, 0, 0);
-	font: 700 2rem/2.625rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.2px;
 }
 
 h3 {
 	color: #333;
-	font: 700 1.625rem/2.125rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.2px;
 }
 
 h4 {
 	color: #333;
-	font: 700 1.375rem/1.75rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.1px;
 }
 
 h5 {
 	color: #333;
-	font: 700 1.125rem/1.5rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.1px;
 }
 
 h6 {
 	color: #333;
-	font: 700 1rem/1.375rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.1px;
 }
 
 .above-heading {
 	color: #5f4dee;
-	font: 700 0.75rem/0.875rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	text-align: center;
 }
 
@@ -107,11 +126,15 @@ h6 {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.625rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 }
 
 .testimonial-author {
-	font: 700 1rem/1.625rem "Roboto", sans-serif;
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
 	letter-spacing: -0.1px;
 }
 
@@ -156,7 +179,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #5f4dee;
 	color: #fff;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -174,7 +197,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #5f4dee;
 	color: #fff;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -192,7 +215,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #5f4dee;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -210,7 +233,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #5f4dee;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -228,7 +251,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #5f4dee;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -258,7 +281,7 @@ a.white {
 	left: 1.25rem;
 	color: #555;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem "Roboto", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -293,7 +316,7 @@ a.white {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #555;
-	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.875rem "Roboto", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none;
  /* removes inner shadow on form inputs on ios safari */;
@@ -352,7 +375,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #555;
-	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.75rem "Roboto", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -371,7 +394,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+	font: 400 0.75rem/1.25rem "Roboto", sans-serif;
 }
 
 input[type='checkbox'] {
@@ -395,7 +418,7 @@ input[type='checkbox'] {
 	border-radius: 1.5rem;
 	background-color: #5f4dee;
 	color: #fff;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem/0 "Roboto", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
