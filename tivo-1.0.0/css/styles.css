@@ -48,7 +48,11 @@ html {
 
 body, p {
 	color: #555;
+<<<<<<< HEAD
 	font-family: unset ;
+=======
+	font-family: "Roboto" ;
+>>>>>>> 4e7002ab96aa001b30f8384af299ff38b6e97e96
 	font-weight: 700;
 	font-size: large;
 }
@@ -75,9 +79,15 @@ h1 {
 
 h2 {
 	color: rgb(0, 0, 0);
+<<<<<<< HEAD
 	font-family: emoji;
 	font-weight: 700;
 	font-size: 27px;
+=======
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
+>>>>>>> 4e7002ab96aa001b30f8384af299ff38b6e97e96
 	letter-spacing: -0.2px;
 }
 
