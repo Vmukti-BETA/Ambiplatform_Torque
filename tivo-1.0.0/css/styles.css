@@ -48,7 +48,13 @@ html {
 
 body, p {
 	color: #555;
+
 	font-family: unset ;
+
+	font-family: unset ;
+
+	font-family: "Roboto" ;
+
 	font-weight: 700;
 	font-size: large;
 }
@@ -75,9 +81,15 @@ h1 {
 
 h2 {
 	color: rgb(0, 0, 0);
+
 	font-family: emoji;
 	font-weight: 700;
 	font-size: 27px;
+
+	font-family: "Roboto" ;
+	font-weight: 700;
+	font-size: large;
+
 	letter-spacing: -0.2px;
 }
 
@@ -738,7 +750,7 @@ input[type='checkbox'] {
 }
 
 .header .p-large {
-	margin-bottom: -2rem
+	margin-bottom: -2rem;
 	color: #f3f7fd;
 	font-family: unset;
 }
