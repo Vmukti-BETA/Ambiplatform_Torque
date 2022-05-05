@@ -828,6 +828,7 @@ input[type='checkbox'] {
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
+    margin-top: -5rem;
 }
 
 .cards-1 .card-title {
