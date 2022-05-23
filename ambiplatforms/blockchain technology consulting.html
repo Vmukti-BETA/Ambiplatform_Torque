@@ -30,7 +30,7 @@
 	<!-- Styles -->
 	<style>
 	#header {
-		transition: all 1s;
+		transition: all 0.01s;
 		z-index: 997;
 		padding: 0 0;
 		background-color: #47b2e4;
@@ -41,7 +41,7 @@
 		background: #47b2e4;
 	}
 	
-	#header .logo {
+	#header .logo{
 		font-size: 30px;
 		margin: 0;
 		padding: 0 10px;
@@ -55,16 +55,19 @@
 		color: #47b2e4;
 	}
 	
-	#header .logo img {
-		max-height: 80px;
-		width: 150px;
+	#header .logo {
+ 	max-height: 100px;
+  	width: 163px;
+  	margin-top: -3%;
+  	margin-left: -5%;  
 	}
 	
-	#header .logo1 img {
-		max-height: 100px;
-		width: 150px;
+	#header .logo1 {
+		margin-left: 30%;
+		width: 135px;
 	}
-	/*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 	/**
@@ -76,7 +79,7 @@
 	}
 	
 	.navbar ul {
-		margin-left: 400px;
+		margin-left: 600px;
 		padding: 0;
 		display: flex;
 		justify-content: flex-end;
@@ -334,44 +337,43 @@
 	</div>
 	<!-- end of preloader -->
 	<!-- Navigation -->
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
-			<h1 class="logo me-auto">
-
-
-          <a class="logo" href="../index.html"> <img src="/assets/logo/ambiplatforms-logo-header.png" alt=""></a>
-
-        </h1>
-			<!-- <h1 class="logo1 me-auto"><img src="images/ambi2.png"  alt="">
-        </h1> -->
-			<!-- Uncomment below if you prefer to use an image logo -->
-			<!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-			<nav id="navbar" class="navbar">
+	
+		  <h1 class="logo me-auto">	
+			<img class="logo1" src="/assets/FINALLOGO/Torque-LogoWhite-Logo.svg"  alt="">
+		  </h1>
+		  
+		  <nav class="navbar">
+			<ul>
+			  
+			  <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+			  <li><a class="nav-link scrollto" href="#about">About</a></li>
+			  <li><a class="nav-link scrollto" href="#services">Services</a></li>
+			  <li><a class="nav-link scrollto " href="./roadmap2/index.html">Roadmap</a></li>
+			  <!-- <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li> -->
+			  <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+			  <li class="dropdown"><a href="#"><span>Explore</span> <i class="bi bi-chevron-down"></i></a>
 				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="#about">About</a></li>
-					<li><a class="nav-link scrollto" href="#services">Services</a></li>
-					<li class="dropdown"><a href="#"><span>Explore</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>
-							<li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="https://ambiplatforms-nft-marketplace.netlify.app/">NFT</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#"><span>Roadmap</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="../roadmap2/index.html">TORQUE ROADMAP</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-					<!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+				  
+				  <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
+					<ul>
+					  <li><a href="https://torque-nftmarketplace.netlify.app/">NFT</a></li>
+										
+					</ul>
+				  </li>
+				  
+				  
 				</ul>
-			</nav>
-			<!-- .navbar -->
+			  </li>
+			  <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+			  <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		  </nav><!-- .navbar -->
+	
 		</div>
-	</header>
+	  </header>
 	<!-- Header -->
 	<header id="header" class="header">
 		<div class="header-content">
@@ -465,10 +467,10 @@
 					<!-- Card-->
 					<div class="card">
 						<div class="card-body">
-							<div class="card-title">Strategy workshop</div><br><br>
-							<!-- <div class="price"><span class="currency"></span><span class="value"></span></div>
+							<div class="card-title">Strategy workshop</div>
+							<div class="price"><span class="currency"></span><span class="value"></span></div>
 							<div class="frequency"></div>
-							<div class="divider"></div> -->
+							<div class="divider"></div>
 							<p>Our team conducts blockchain workshops and live webinars to help you better understand blockchain technology, its potential use cases & utilization. We demonstrate how the blockchain can transform your industry with case studies of our projects.</p>
 							<div class="button-wrapper">
 								<!-- <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a> --></div>
@@ -479,10 +481,10 @@
 					<!-- Card-->
 					<div class="card">
 						<div class="card-body">
-							<div class="card-title">Blockchain Consultancy</div><br><br>
-							<!-- <div class="price"><span class="currency"></span><span class="value"></span></div>
+							<div class="card-title">Blockchain Consultancy</div>
+							<div class="price"><span class="currency"></span><span class="value"></span></div>
 							<div class="frequency"></div>
-							<div class="divider"></div> -->
+							<div class="divider"></div>
 							<p>We examine your existing solution, identify the need for a blockchain solution specific to your business use case and analyze how blockchain will add value to your business. We suggest the right technology and the possible solutions for the proposed project.</p>
 							<div class="button-wrapper">
 								<!-- <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a> --></div>
@@ -492,10 +494,10 @@
 					<!-- Card-->
 					<div class="card">
 						<div class="card-body">
-							<div class="card-title">Blockchain Development</div><br><br>
-							<!-- <div class="price"><span class="currency"></span><span class="value"></span></div>
+							<div class="card-title">Blockchain Development</div>
+							<div class="price"><span class="currency"></span><span class="value"></span></div>
 							<div class="frequency"></div>
-							<div class="divider"></div> -->
+							<div class="divider"></div>
 							<p>Once you understand the blockchain feasibility for your use case, you can move your project to development. As a leading blockchain development company, we develop and deliver scalable blockchain solutions to innovate your business operations.</p>
 							<div class="button-wrapper">
 								<!-- <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a> --></div>
@@ -541,56 +543,70 @@
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 footer-contact">
-						<h4><img height="" width="170px" src="/assets/logo/ambiplatforms-logo-footer.png"/></h4>
-						<p>
-							AmbiPlatforms, LLC<br>
-							312W. 2nd Street, Suite 1064<br>
-							Casper, WY 82601<br>
-							<br>
-							
-						   
-						</p>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Useful Links</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="../index.html">About us</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="../roadmap2/index.html">Roadmap</a></li>
-							<!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
-							<li><i class="bx bx-chevron-right"></i> <a href="./privacy-policy.html">Privacy policy</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Services</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="./blockchainconsulting.html">Our Own Blockchain</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./blockchainconsulting.html">Blockchain Consulting</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./metaverse.html">VR Metaverse</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./index.html">No-Code AI</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Social Networks</h4>
-						<!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
-						<div class="social-links mt-3"> <a href="https://twitter.com/DEV_TORQUE" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="https://www.reddit.com/user/DEV-TORQUE" class="facebook"><i class="bx bxl-reddit"></i></a> <a href="https://www.instagram.com/dev_torque/" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="https://discord.gg/C3YPas8r" class="google-plus"><i class="bx bxl-discord"></i></a>
-							<!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --></div>
-					</div>
+		  <div class="container">
+			<div class="row">
+	
+			  <div class="col-lg-3 col-md-6 footer-contact">
+				<h4><img height="110px" width="150px" src="/assets/FINALLOGO/Torque-Logo-Logo.png"/></h4>
+				<p>
+				  AmbiPlatforms, LLC<br>
+				  312W. 2nd Street, Suite 1064<br>
+				  Casper, WY 82601<br>
+				  <br>
+				</p>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Useful Links</h4>
+				<ul>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#heo">Home</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+				</ul>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Our Services</h4>
+				<ul>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Our Own Blockchain</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Blockchain Consulting</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">VR Metaverse</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">No-Code AI</a></li>
+				 
+				</ul>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Our Social Networks</h4>
+				<!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
+				<div class="social-links mt-3">
+				  <a href="https://twitter.com/DEV_TORQUE" class="twitter"><i class="bx bxl-twitter"></i></a>
+				  <a href="https://www.reddit.com/user/DEV-TORQUE" class="facebook"><i class="bx bxl-reddit"></i></a>
+				  <a href="https://www.instagram.com/dev_torque/" class="instagram"><i class="bx bxl-instagram"></i></a>
+				  <a href="https://discord.gg/C3YPas8r" class="google-plus"><i class="bx bxl-discord"></i></a>
+				  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
 				</div>
+			  </div>
+	
 			</div>
+		  </div>
 		</div>
+	
 		<div class="container footer-bottom clearfix">
-			<div class="copyright"> &copy; Copyright <strong><span>AmbiPlatforms</span></strong>. All Rights Reserved </div>
-			<div class="credits">
-				<!-- All the links in the footer should remain intact. -->
-				<!-- You can delete the links only if you purchased the pro version. -->
-				<!-- Licensing information: https://bootstrapmade.com/license/ -->
-				<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->Designed by <a href="https://vmukti.com/">Team Torque</a> </div>
+		  <div class="copyright">
+			&copy; Copyright <strong><span>AmbiPlateforms</span></strong>. All Rights Reserved
+		  </div>
+		  <div class="credits">
+			<!-- All the links in the footer should remain intact. -->
+			<!-- You can delete the links only if you purchased the pro version. -->
+			<!-- Licensing information: https://bootstrapmade.com/license/ -->
+			<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+			Designed by <a href="https://vmukti.com/">Team Torque</a>
+		  </div>
 		</div>
-	</footer>
+	  </footer>
 	<!-- end of footer -->
 	<!-- end of footer -->
 	<!-- Scripts -->

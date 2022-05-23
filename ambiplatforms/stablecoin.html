@@ -30,7 +30,7 @@
 	<!-- Styles -->
 	<style>
 	#header {
-		transition: all 1s;
+		transition: all 0.01s;
 		z-index: 997;
 		padding: 0 0;
 		background-color: #47b2e4;
@@ -41,7 +41,7 @@
 		background: #47b2e4;
 	}
 	
-	#header .logo {
+	#header .logo{
 		font-size: 30px;
 		margin: 0;
 		padding: 0 10px;
@@ -55,16 +55,16 @@
 		color: #47b2e4;
 	}
 	
-	#header .logo img {
-		max-height: 80px;
-		width: 200px;
-		align-items: center; 
+	#header .logo {
+ 	max-height: 100px;
+  	width: 163px;
+  	margin-top: -3%;
+  	margin-left: -5%;  
 	}
 	
-	#header .logo1 img {
-		max-height: 100px;
-		width: 150px;
-		 
+	#header .logo1 {
+		margin-left: 30%;
+		width: 135px;
 	}
 	/*--------------------------------------------------------------
 # Navigation Menu
@@ -78,7 +78,7 @@
 	}
 	
 	.navbar ul {
-		margin-left: 400px;
+		margin-left: 600px;
 		padding: 0;
 		display: flex;
 		list-style: none;
@@ -332,11 +332,13 @@
 	</div>
 	<!-- end of preloader -->
 	<!-- Navigation -->
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
-			<h1 class="logo me-auto">
-          <a href="../index.html"> <img src="/assets/logo/ambiplatforms-logo-header.png" alt=""></a>
-        </h1>
+	
+		  <h1 class="logo me-auto">	
+			<img class="logo1" src="/assets/FINALLOGO/Torque-LogoWhite-Logo.svg"  alt="">
+		  </h1>
+		  
 			<!-- <h1 class="logo1 me-auto"><img src="images/ambi2.png"  alt="">
         </h1> -->
 			<!-- Uncomment below if you prefer to use an image logo -->
@@ -486,17 +488,16 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-lg-3 col-md-6 footer-contact">
-						<h4><img height="" width="170px" src="/assets/logo/ambiplatforms-logo-footer.png"/></h4>
-						<p>
-							AmbiPlatforms, LLC<br>
-							312W. 2nd Street, Suite 1064<br>
-							Casper, WY 82601<br>
-							<br>
-							
-   
-						</p>
-					</div>
+					  <h4><img height="140px" width="150px" src="../assets/FINALLOGO/Torque-Logo-Logo.png"/></h4>
+					  <p>
+						AmbiPlatforms, LLC<br>
+						312W. 2nd Street, Suite 1064<br>
+						Casper, WY 82601<br>
+						<br>
+					  </p>
+					</div>  
 					<div class="col-lg-3 col-md-6 footer-links">
 						<h4>Useful Links</h4>
 						<ul>

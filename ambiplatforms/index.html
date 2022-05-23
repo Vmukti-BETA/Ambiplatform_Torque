@@ -9,7 +9,7 @@
 	<meta name="author" content="shethraj">
 	<!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
 	<meta property="og:site_name" content="" />
-	<!-- website name -->	
+	<!-- website name -->
 	<meta property="og:site" content="" />
 	<!-- website link -->
 	<meta property="og:title" content="" />
@@ -30,7 +30,7 @@
 	<!-- Styles -->
 	<style>
 	#header {
-		transition: all 1s;
+		transition: all 0.01s;
 		z-index: 997;
 		padding: 0 0;
 		background-color: #47b2e4;
@@ -41,7 +41,7 @@
 		background: #47b2e4;
 	}
 	
-	#header .logo {
+	#header .logo{
 		font-size: 30px;
 		margin: 0;
 		padding: 0 10px;
@@ -55,16 +55,18 @@
 		color: #47b2e4;
 	}
 	
-	#header .logo img {
-		max-height: 80px;
-		width: 150px;
+	#header .logo {
+ 	max-height: 100px;
+  	width: 163px;
+  	margin-top: -3%;
+  	margin-left: -5%;  
 	}
 	
-	#header .logo1 img {
-		max-height: 100px;
-		width: 150px;
+	#header .logo1 {
+		margin-left: 30%;
+		width: 135px;
 	}
-	/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 	/**
@@ -76,11 +78,12 @@
 	}
 	
 	.navbar ul {
-		margin-left: 400px;
+		margin-left: 600px;
 		padding: 0;
 		display: flex;
+		justify-content: flex-end;
 		list-style: none;
-		align-items: center;
+		align-items: flex-end;
 	}
 	
 	.navbar li {
@@ -330,15 +333,17 @@
 	</div>
 	<!-- end of preloader -->
 	<!-- Navigation -->
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
-			<h1 class="logo me-auto">
-          <a href="../index.html"> <img src="/assets/logo/ambiplatforms-logo-header.png" alt=""></a>
-        </h1>
+	
+		  <h1 class="logo me-auto">	
+			<img class="logo1" src="/assets/FINALLOGO/Torque-LogoWhite-Logo.svg"  alt="">
+		  </h1>
+      
 			<!-- <h1 class="logo1 me-auto"><img src="images/ambi2.png"  alt="">
         </h1> -->
 			<!-- Uncomment below if you prefer to use an image logo -->
-			<!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+			<a href="index.html" class="logo me-auto"><img class="img-fluid" src="/assets/FINALOGO/Torque-LogoWhite-Logo.svg" alt="" ></a>
 			<nav id="navbar" class="navbar">
 				<ul>
 					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -383,7 +388,7 @@
 							<div class="img-wrapper"> <img class="img-fluid" src="images/AI.png" alt="alternative"> </div>
 							<!-- end of img-wrapper -->
 						</div>
-						<!-- end of image- -->
+						<!-- end of image-container -->
 					</div>
 					<!-- end of col -->
 				</div>
@@ -445,7 +450,6 @@
 					<div class="above-heading"></div>
 					<h2 class="h2-heading">Transform your business with our TorqueAI NO-CODE AI PRODUCTS</h2>
 					<h3>Some Popular Use Cases</h3> </div>
-					<br><br><br><br><br>
 				<!-- end of col -->
 			</div>
 			<!-- end of row -->
@@ -455,7 +459,7 @@
 					<div class="card">
 						<div class="card-image"> <img class="img-fluid" src="/assets/logo/Torque-Ai-Icon-MaskAlert.svg" alt="alternative" height="50%" width="100%"> </div>
 						<div class="card-body">
-							<h4 class="card-title"><a href="../ambiplatforms/face_detection.html">Face Mask Detection</a></h4>
+							<h4 class="card-title"><a href="../tivo-1.0.0/face_detection.html">Face Mask Detection</a></h4>
 							<p>Automate detection of people without masks with our Smart Face Mask Detection System.</p>
 						</div>
 					</div>
@@ -464,16 +468,16 @@
 					<div class="card">
 						<div class="card-image"> <img class="img-fluid" src="/assets/logo/Torque-Ai-Icon-SocialDistance.svg" alt="alternative" height="150%" width="100%"> </div>
 						<div class="card-body">
-							<h4 class="card-title"><a href="../ambiplatforms/social_dis.html">Social Distancing Alert System</a></h4>
+							<h4 class="card-title"><a href="../tivo-1.0.0/social_dis.html">Social Distancing Alert System</a></h4>
 							<p>Intelligently detect and alert people not adhering to the social distancing norms.</p>
 						</div>
 					</div>
 					<!-- end of card -->
 					<!-- Card -->
 					<div class="card">
-						<div class="card-image"> <img class="img-fluid" src="/assets/logo/contactless-attendance.svg" alt="alternative" height="150%" width="100%"> </div>
+						<div class="card-image"> <img class="img-fluid" src="/assets/logo/contactless-attendance.png" alt="alternative" height="50%" width="100%"> </div>
 						<div class="card-body">
-							<h4 class="card-title"><a href="../ambiplatforms/contactless.html">Contactless Attendance Solution</a></h4>
+							<h4 class="card-title"><a href="../tivo-1.0.0/contactless.html">Contactless Attendance Solution</a></h4>
 							<p>Record attendance through face detection by using our Contactless Attendance Solution.</p>
 						</div>
 					</div>
@@ -544,56 +548,70 @@
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 footer-contact">
-						<h4><img height="" width="170px" src="/assets/logo/ambiplatforms-logo-footer.png"/></h4>
-						<p>
-							AmbiPlatforms, LLC<br>
-							312W. 2nd Street, Suite 1064<br>
-							Casper, WY 82601<br>
-							<br>
-							
-						   
-						</p>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Useful Links</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="../index.html">About us</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="../roadmap2/index.html">Roadmap</a></li>
-							<!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
-							<li><i class="bx bx-chevron-right"></i> <a href="./privacy-policy.html">Privacy policy</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Services</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="./blockchainconsulting.html">Our Own Blockchain</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./blockchainconsulting.html">Blockchain Consulting</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./metaverse.html">VR Metaverse</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="./index.html">No-Code AI</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Social Networks</h4>
-						<!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
-						<div class="social-links mt-3"> <a href="https://twitter.com/DEV_TORQUE" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="https://www.reddit.com/user/DEV-TORQUE" class="facebook"><i class="bx bxl-reddit"></i></a> <a href="https://www.instagram.com/dev_torque/" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="https://discord.gg/C3YPas8r" class="google-plus"><i class="bx bxl-discord"></i></a>
-							<!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --></div>
-					</div>
+		  <div class="container">
+			<div class="row">
+	
+			  <div class="col-lg-3 col-md-6 footer-contact">
+				<h4><img height="" width="150px" src="../assets/FINALLOGO/Torque-Logo-Logo.png"/></h4>
+				<p>
+				  AmbiPlatforms, LLC<br>
+				  312W. 2nd Street, Suite 1064<br>
+				  Casper, WY 82601<br>
+				  <br>
+				</p>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Useful Links</h4>
+				<ul>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#heo">Home</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+				</ul>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Our Services</h4>
+				<ul>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Our Own Blockchain</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">Blockchain Consulting</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">VR Metaverse</a></li>
+				  <li><i class="bx bx-chevron-right"></i> <a href="#services">No-Code AI</a></li>
+				 
+				</ul>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Our Social Networks</h4>
+				<!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
+				<div class="social-links mt-3">
+				  <a href="https://twitter.com/DEV_TORQUE" class="twitter"><i class="bx bxl-twitter"></i></a>
+				  <a href="https://www.reddit.com/user/DEV-TORQUE" class="facebook"><i class="bx bxl-reddit"></i></a>
+				  <a href="https://www.instagram.com/dev_torque/" class="instagram"><i class="bx bxl-instagram"></i></a>
+				  <a href="https://discord.gg/C3YPas8r" class="google-plus"><i class="bx bxl-discord"></i></a>
+				  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
 				</div>
+			  </div>
+	
 			</div>
+		  </div>
 		</div>
+	
 		<div class="container footer-bottom clearfix">
-			<div class="copyright"> &copy; Copyright <strong><span>AmbiPlatforms</span></strong>. All Rights Reserved </div>
-			<div class="credits">
-				<!-- All the links in the footer should remain intact. -->
-				<!-- You can delete the links only if you purchased the pro version. -->
-				<!-- Licensing information: https://bootstrapmade.com/license/ -->
-				<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->Designed by <a href="https://vmukti.com/">Team Torque</a> </div>
+		  <div class="copyright">
+			&copy; Copyright <strong><span>AmbiPlateforms</span></strong>. All Rights Reserved
+		  </div>
+		  <div class="credits">
+			<!-- All the links in the footer should remain intact. -->
+			<!-- You can delete the links only if you purchased the pro version. -->
+			<!-- Licensing information: https://bootstrapmade.com/license/ -->
+			<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+			Designed by <a href="https://vmukti.com/">Team Torque</a>
+		  </div>
 		</div>
-	</footer>
+	  </footer>
 	<!-- end of footer -->
 	<!-- end of footer -->
 	<!-- Scripts -->

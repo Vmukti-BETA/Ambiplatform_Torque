@@ -48,13 +48,7 @@ html {
 
 body, p {
 	color: #555;
-
-	font-family: unset ;
-
-	font-family: unset ;
-
 	font-family: "Roboto" ;
-
 	font-weight: 700;
 	font-size: large;
 }
@@ -81,15 +75,9 @@ h1 {
 
 h2 {
 	color: rgb(0, 0, 0);
-
-	font-family: emoji;
-	font-weight: 700;
-	font-size: 27px;
-
 	font-family: "Roboto" ;
 	font-weight: 700;
 	font-size: large;
-
 	letter-spacing: -0.2px;
 }
 
@@ -750,9 +738,8 @@ input[type='checkbox'] {
 }
 
 .header .p-large {
-	margin-bottom: -2rem;
+	margin-bottom: 2rem;
 	color: #f3f7fd;
-	font-family: unset;
 }
 
 .header .btn-solid-lg {
@@ -806,8 +793,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 0.25rem;
 	padding-bottom: 0rem;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .cards-1 .h2-heading {
@@ -1151,7 +1137,7 @@ input[type='checkbox'] {
 /*     11. Pricing     */
 /***********************/
 .cards-2 {
-	padding-top: 1.875rem;
+	padding-top: 7.875rem;
 	padding-bottom: 2.25rem;
 	text-align: center;
 }
@@ -1426,7 +1412,6 @@ input[type='checkbox'] {
 	font-weight: bold;
 	color: #209dd8;
 	position: relative;
-	font-family: fangsong;
 	padding-bottom: 12px;
   }
   #footer .footer-top .footer-links {
@@ -1436,7 +1421,6 @@ input[type='checkbox'] {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-family: math;
   }
   #footer .footer-top .footer-links ul i {
 	padding-right: 2px;
@@ -2095,6 +2079,7 @@ a:hover.back-to-top {
 		width: 18.875rem;
 		margin-right: 2rem;
 		margin-left: 2rem;
+		height: 540px;
 		box-shadow: 0px 0 3px 0 rgb(0 0 0);
 		padding: 50px 30px;
 		transition: all ease-in-out 0.1s;
@@ -2102,7 +2087,7 @@ a:hover.back-to-top {
 		border-radius: 27px;
 	}
 
-	.cards-1 .card-image {
+	.cards-1 .ca	rd-image {
 		width: 12.5rem;
 	}
 	/* end of description */
@@ -2151,6 +2136,7 @@ a:hover.back-to-top {
 	.cards-2 .card .card-body {
 		padding-right: 2.25rem;
 		padding-left: 2.25rem;
+		height: 700px;
 	}
 	/* end of pricing */
 

@@ -134,13 +134,15 @@ h6 {
 #header .logo a {
   color: #47b2e4;
 }
-#header .logo img {
+#header .logo {
   max-height: 100px;
   width: 163px;
+  margin-top: -3%;
+  margin-left: -5%;
   
 }
-#header .logo1 img {
-  max-height: 150px;
+#header .logo1 {
+  max-height: 144px;
   width: 400px;
 }
 
