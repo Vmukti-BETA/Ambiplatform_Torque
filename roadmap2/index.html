@@ -20,7 +20,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 	<style>
 	#header {
-		transition: all 1s;
+		transition: all 0.01s;
 		z-index: 997;
 		padding: 0 0;
 		background-color: #47b2e4;
@@ -31,7 +31,7 @@
 		background: #47b2e4;
 	}
 	
-	#header .logo {
+	#header .logo{
 		font-size: 30px;
 		margin: 0;
 		padding: 0 10px;
@@ -45,14 +45,16 @@
 		color: #47b2e4;
 	}
 	
-	#header .logo img {
-		max-height: 80px;
-		width: 200px;
+	#header .logo {
+ 	max-height: 100px;
+  	width: 163px;
+  	margin-top: -3%;
+  	margin-left: -5%;  
 	}
 	
-	#header .logo1 img {
-		max-height: 100px;
-		width: 400px;
+	#header .logo1 {
+		margin-left: 30%;
+		width: 135px;
 	}
 	/*--------------------------------------------------------------
 # Navigation Menu
@@ -66,11 +68,12 @@
 	}
 	
 	.navbar ul {
-		margin: 0;
+		margin-left: 600px;
 		padding: 0;
 		display: flex;
+		justify-content: flex-end;
 		list-style: none;
-		align-items: center;
+		align-items: flex-end;
 	}
 	
 	.navbar li {
@@ -304,13 +307,12 @@
 </head>
 
 <body>
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
-			<h1 class="logo me-auto">
-        <a href="../index.html"> <img src="/assets/logo/ambiplatforms-logo-header.png" alt=""></a>
-        <!-- <a href="../index.html"> <img src="../assets/img/ambi2.png" alt=""></a> -->
-
-      </h1>
+	
+		  <h1 class="logo me-auto">	
+			<img class="logo1" src="/assets/FINALLOGO/Torque-LogoWhite-Logo.svg"  alt="">
+		  </h1>
 			<!-- <h1 class="logo1 me-auto"><img src="images/ambi2.png"  alt=""> --></h1>
 			<!-- Uncomment below if you prefer to use an image logo -->
 			<!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
