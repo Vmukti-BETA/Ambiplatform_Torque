@@ -48,17 +48,7 @@ html {
 
 body, p {
 	color: #555;
-<<<<<<< Updated upstream
 	font-family: "Roboto" ;
-=======
-
-	font-family: unset ;
-
-	font-family: unset ;
-
-	font-family: "Roboto" ;
-
->>>>>>> Stashed changes
 	font-weight: 700;
 	font-size: large;
 }
@@ -85,21 +75,9 @@ h1 {
 
 h2 {
 	color: rgb(0, 0, 0);
-<<<<<<< Updated upstream
 	font-family: "Roboto" ;
 	font-weight: 700;
 	font-size: large;
-=======
-
-	font-family: emoji;
-	font-weight: 700;
-	font-size: 27px;
-
-	font-family: "Roboto" ;
-	font-weight: 700;
-	font-size: large;
-
->>>>>>> Stashed changes
 	letter-spacing: -0.2px;
 }
 
@@ -760,14 +738,8 @@ input[type='checkbox'] {
 }
 
 .header .p-large {
-<<<<<<< Updated upstream
 	margin-bottom: 2rem;
 	color: #f3f7fd;
-=======
-	margin-bottom: -2rem;
-	color: #f3f7fd;
-	font-family: unset;
->>>>>>> Stashed changes
 }
 
 .header .btn-solid-lg {
@@ -821,12 +793,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 0.25rem;
 	padding-bottom: 0rem;
-<<<<<<< Updated upstream
 	text-align: center;	
-=======
-	text-align: center;
-	
->>>>>>> Stashed changes
 }
 
 .cards-1 .h2-heading {
@@ -1170,11 +1137,7 @@ input[type='checkbox'] {
 /*     11. Pricing     */
 /***********************/
 .cards-2 {
-<<<<<<< Updated upstream
 	padding-top: 7.875rem;
-=======
-	padding-top: 1.875rem;
->>>>>>> Stashed changes
 	padding-bottom: 2.25rem;
 	text-align: center;
 }
@@ -1449,10 +1412,6 @@ input[type='checkbox'] {
 	font-weight: bold;
 	color: #209dd8;
 	position: relative;
-<<<<<<< Updated upstream
-=======
-	font-family: fangsong;
->>>>>>> Stashed changes
 	padding-bottom: 12px;
   }
   #footer .footer-top .footer-links {
@@ -1462,10 +1421,6 @@ input[type='checkbox'] {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-<<<<<<< Updated upstream
-=======
-	font-family: math;
->>>>>>> Stashed changes
   }
   #footer .footer-top .footer-links ul i {
 	padding-right: 2px;
@@ -2124,10 +2079,7 @@ a:hover.back-to-top {
 		width: 18.875rem;
 		margin-right: 2rem;
 		margin-left: 2rem;
-<<<<<<< Updated upstream
 		height: 540px;
-=======
->>>>>>> Stashed changes
 		box-shadow: 0px 0 3px 0 rgb(0 0 0);
 		padding: 50px 30px;
 		transition: all ease-in-out 0.1s;
@@ -2135,11 +2087,7 @@ a:hover.back-to-top {
 		border-radius: 27px;
 	}
 
-<<<<<<< Updated upstream
 	.cards-1 .ca	rd-image {
-=======
-	.cards-1 .card-image {
->>>>>>> Stashed changes
 		width: 12.5rem;
 	}
 	/* end of description */
@@ -2188,10 +2136,7 @@ a:hover.back-to-top {
 	.cards-2 .card .card-body {
 		padding-right: 2.25rem;
 		padding-left: 2.25rem;
-<<<<<<< Updated upstream
 		height: 700px;
-=======
->>>>>>> Stashed changes
 	}
 	/* end of pricing */
 
