@@ -48,7 +48,7 @@ html {
 
 body, p {
 	color: #555;
-	font-family: "Roboto" ;
+	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	font-size: large;
 }
@@ -1385,7 +1385,7 @@ input[type='checkbox'] {
 	background: #209dd8;
   }
   #footer .footer-top {
-	padding: 10px 0 20px 0;
+	padding: 60px 0 30px 0;
 	background: #fff;
   }
   #footer .footer-top .footer-contact {
@@ -1493,9 +1493,6 @@ input[type='checkbox'] {
 	  padding-top: 4px;
 	}
   }
-  
-
-
 /*************************/
 /*     15. Copyright     */
 /*************************/
@@ -1516,8 +1513,6 @@ input[type='checkbox'] {
 	color: #f3f7fd;
 	text-decoration: none;
 }
-
-
 /**********************************/
 /*     16. Back To Top Button     */
 /**********************************/
@@ -1538,8 +1533,6 @@ a.back-to-top {
 a:hover.back-to-top {
 	background-color: #4332c5; 
 }
-
-
 /***************************/
 /*     17. Extra Pages     */
 /***************************/
@@ -1626,8 +1619,6 @@ a:hover.back-to-top {
 	height: 2.75rem;
 	background-color: #f3f7fd;
 }
-
-
 /****************************************/
 /*     18. Sign Up and Log In Pages     */
 /****************************************/
@@ -1683,8 +1674,6 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 	/* end of general styles */
-
-
 	/* Header */
 	.header .text-container {
 		margin-bottom: 4rem;
@@ -1704,8 +1693,6 @@ a:hover.back-to-top {
 		height: 5.5rem;
 	}
 	/* end of header */
-
-
 	/* Testimonials */
 	.slider-2 .swiper-button-prev {
 		width: 1.375rem;
@@ -1752,21 +1739,16 @@ a:hover.back-to-top {
 		margin-top: 0;
 	}
 	/* end of extra pages */
-
-
 	/* Sign Up And Log In Pages */
 	.ex-2-header {
 		padding-top: 11rem;
 	}
-
 	.ex-2-header .form-container {
 		padding: 2.25rem 1.75rem 1.25rem 1.75rem;
 	}
 	/* end of sign up and log in pages */
 }
 /* end of min-width width 768px */
-
-
 /* Min-width width 992px */
 @media (min-width: 992px) {
 	
@@ -1781,7 +1763,6 @@ a:hover.back-to-top {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 	}
@@ -1790,7 +1771,6 @@ a:hover.back-to-top {
 	.navbar-custom .nav-item .nav-link.active {
 		opacity: 1;
 	}
-
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		background-color: #5f4dee;
@@ -1822,20 +1802,16 @@ a:hover.back-to-top {
 	.navbar-custom .dropdown-items-divide-hr {
 		width: 84%;
 	}
-
 	.navbar-custom .nav-item .btn-outline-sm {
 		margin-top: 0;
 		margin-bottom: 0;
 		margin-left: 1rem;
 	}
 	/* end of navigation */
-
-
 	/* General Styles */
 	.p-heading {
 		width: 65%;
 	}
-
 	.h2-heading {
 		width: 60%;
 	}
